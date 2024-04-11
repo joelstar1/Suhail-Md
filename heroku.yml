@@ -1,0 +1,5 @@
+build:
+  docker:
+      web: JORDAN-JOELSTAR
+run:
+  web: npm start

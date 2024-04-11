@@ -1,0 +1,150 @@
+{
+  "name": "𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁🤖",
+  "description": "𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁🤖, a revolutionary whatsapp bot created by JORDAN-JOELSTAR",
+  "logo": "https://telegra.ph/file/b8572a43b375104b0d930.jpg",
+  "keywords": ["whatsappbot", "suhailMd", "suhail Md bot", "Suhail-Md", "SuhailMdWhatsaooBot", "SuhailWaBot","SuhailMD","Suhail Md Whatsapp Bot","multi device"],
+  "success_url": "/suhail/",
+  "app_url": "/qr/",
+  
+  "env": {
+    "OWNER_NAME": {
+      "description": "Name for Bot Owner",    
+      "value": "JORDAN-JOELSTAR",
+      "required" :true
+    },   
+     
+    "WELCOME": {
+      "description": "put 'false' or 'true' to enable or disable WELCOME ",
+      "value": "true",
+      "required" :false
+    },
+     
+    "GOODBYE": {
+      "description": "fix 'false' or 'true' to enable or disable GOODBYE ",
+      "value": "false",
+      "required" :false
+    },
+    "BOT_NAME": {
+      "description": " The name you want to give your bot",
+      "required" :false,    
+      "value": "𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁 🤖"
+    }, 
+    "USER_IMAGES": {
+      "description": "Your bot image",
+      "required" :false,    
+      "value": "https://telegra.ph/file/f81015230c96d1f53ab60.mp4"
+    }, 
+    "TZ": {
+      "description": "Fix TIME_ZONE according to your location",
+      "required" :false,    
+      "value": "Africa/Nigeria"
+    },  
+    "FLUSH": {
+      "description": " If you connect the bot after deploy and it doesn't respond, make it true",
+      "required" :false,    
+      "value": "false"
+    },     
+    "READ_COMMAND": {
+      "description": " If true, 𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁 🤖 Will read specific messages that are part of the command commands",
+      "required" :false,    
+      "value": "false"
+    },
+    "WARN_COUNT": {
+      "description": " Warn count for users to kick/block when warn limit is crossed",
+      "required" :false,    
+      "value": "2"
+    },  
+    "AUTO_SAVE_STATUS": {
+      "description": "𝙹𝙾𝚁𝙳𝙰𝙽-𝙹𝙾𝙴𝙻𝚂𝚃𝙰𝚁 🤖  auto saves whatsapp status if you male this var true", 
+      "required" :false,   
+      "value": "false"
+    }, 
+    "HEROKU_API_KEY": {
+      "description": "Put Your Heroku Api Key Here",
+      "value": "",
+      "required" :true 
+    },   
+    "HEROKU_APP_NAME": {
+      "description": "Put Your Heroku App Name Here. NB fix the entire character in lower case",
+      "value": "",
+    "required" :true
+    }, 
+    "WAPRESENCE": {
+      "description": "Fill the value: 'unavailable'(for nothing) | 'available'(for alwaysonline) | 'composing'(for typing) | 'recording' | 'paused' ",
+      "required" :false,
+      "value": "available"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Fill the value true if you want bot view your Statuses.",
+      "required" :false,
+      "value": "true"
+    }, 
+    "MSGS_IN_LOG": {
+      "description": "Fill the value true if you want to see Messages in logs.",
+      "required" :false,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "Fill the value true if you want bot to read all messages.",
+      "required" :false,
+      "value": "false"
+    },
+    "DISABLE_PM": {
+      "description": "Disable bot in pm-making it false will allow people use bot in Private",
+      "value": "true",
+      "required" :false
+    },
+    "PREFIX": {
+      "description": "Enter your desired prefix for bot. you can set `all | . | .!*`",
+      "value": "."
+    },
+    "OWNER_NUMBER": {
+      "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
+      "value": "2349054039891,2347061138624"
+    },
+    "SESSION_ID": {
+      "description": "put your SESSION_ID here.",
+      "value": ""
+  
+    },
+    "OPENAI_API_KEY": {
+      "description": "put your OPENAI api key here.Get it from beta.openai.com ",
+      "value": "",
+      "required" :false
+    }, 
+    "ELEVENLAB_API_KEY": {
+      "description": " API key for Aitts function.",
+      "value": "b83709a7a0691e09fbe13db39068056a",
+      "required" :false
+    }, 
+    "REMOVE_BG_KEY": {
+      "description": "API for removing photo background",
+      "value": "diVYfA5PJpwMSDrMCj2BYbnc",
+      "required" :false
+    },
+    "MODE": {
+      "description": "Worktype of your bot. Fix public or private, to allow all users/bot owner to control bot.",
+      "value": "private"
+    },
+    "PACK_NAME": {
+      "description": "Put Sticker Pack_Name.",
+      "value": "JORDAN-JOELSTAR🕷",
+      "required": false 
+    },
+    "PACK_AUTHER": {
+      "description": "Put Sticker Author_Name.",
+      "value": "JORDAN-JOELSTAR🕸",
+      "required": false 
+    },
+    "STACK": {
+      "description": "STACK NAME ",
+      "value": "container | heroku-22 | 4246315815290786|01|2026|717",
+      "required": false 
+    }
+  }, 
+  "addons": [{ "plan": "heroku-postgresql:basic" }],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
+  ]
+}
